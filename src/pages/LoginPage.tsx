@@ -65,7 +65,7 @@ const LoginPage = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="staff@savannahflame.co.ke"
+                placeholder="staff@bigsmokekaren.co.ke"
                 className="bg-secondary border-border"
                 required
               />
