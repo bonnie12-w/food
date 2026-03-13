@@ -70,7 +70,7 @@ const Hero = () => {
           >
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-primary" />
-              <span>Westlands, Nairobi</span>
+              <span>Karen, Nairobi</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-primary" />
