@@ -25,7 +25,7 @@ const Hero = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-primary tracking-[0.4em] uppercase text-xs sm:text-sm mb-6"
           >
-            Nairobi's Finest Grill Experience
+            TASTE THE MOMENT!!
           </motion.p>
 
           <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-[0.9] mb-6">
@@ -39,7 +39,8 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-foreground/60 text-lg sm:text-xl max-w-xl mx-auto mb-10 font-body"
           >
-            Premium flame-grilled steaks, authentic Kenyan cuisine, and world-class cocktails in an unforgettable atmosphere.
+            Fresh, colorful, and packed with goodness 🥗✨
+            Your perfect bowl for every craving.
           </motion.p>
 
           <motion.div
@@ -70,11 +71,11 @@ const Hero = () => {
           >
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-primary" />
-              <span>Karen, Nairobi</span>
+              <span>Kilimani, Nairobi</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-primary" />
-              <span>Open 11AM – 11PM</span>
+              <span>Open 7AM – 10PM</span>
             </div>
           </motion.div>
         </motion.div>
