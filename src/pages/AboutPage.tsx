@@ -23,7 +23,7 @@ const AboutPage = () => {
             >
               <p className="text-primary tracking-[0.3em] uppercase text-xs mb-4">Our Story</p>
               <h1 className="font-display text-4xl sm:text-5xl font-bold text-foreground">
-                About <span className="gold-gradient-text italic">bigsmokekaren</span>
+                About <span className="gold-gradient-text italic">Papparoti Kenya</span>
               </h1>
             </motion.div>
 
@@ -34,9 +34,7 @@ const AboutPage = () => {
               className="max-w-3xl mx-auto text-center"
             >
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                Born from a passion for authentic flame-grilled cuisine, bigsmokekaren brings the rich flavors 
-                of the African savannah to Nairobi's vibrant dining scene. Every dish is crafted with premium ingredients, 
-                grilled over open flames, and served with warmth.
+                "PappaRoti is a global chain of cafes specializing in a unique and distinctive coffee-caramel-coated bun. Originating in Malaysia in 2003, PappaRoti has since expanded to various countries, becoming a household name."
               </p>
             </motion.div>
 
@@ -87,9 +85,9 @@ const AboutPage = () => {
               {[
                 { icon: MapPin, text: "Nairobi, Kenya" },
                 { icon: Phone, text: "+254 712 345 678" },
-                { icon: Mail, text: "hello@bigsmokekaren.co.ke" },
-                { icon: Instagram, text: "bigsmokekaren" },
-                { icon: Clock, text: "Mon – Sun: 11:00 AM – 11:00 PM" },
+                { icon: Mail, text: "hello@Papparotikenya.co.ke" },
+                { icon: Instagram, text: "Papparotikenya" },
+                { icon: Clock, text: "Mon – Sun: 7:00 AM – 10:00 PM" },
               ].map((item, i) => (
                 <p key={i} className="flex items-center gap-4 text-muted-foreground">
                   <item.icon className="w-5 h-5 text-primary flex-shrink-0" />
